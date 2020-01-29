@@ -1,3 +1,6 @@
+/* https://www.color-hex.com/color/ffc361  verde
+https://www.color-hex.com/color/85c84f  marron */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +9,52 @@
 
   body{
     font-family: 'Open Sans', sans-serif;
+  }
+  
+  #header {
+    margin:auto;
+  }
+  
+  ul, ol {
+    list-style:none;
+  }
+  
+  .nav {
+    display: flex;
+    text-align: center;
+  }
+
+  .nav li {
+    width: 100%;
+  }
+  
+  .nav li a {
+    background-color:#273c17;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+  }
+  
+  .nav li a:hover {
+    background-color:#5d8c37;
+  }
+  
+  .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+  }
+  
+  .nav li:hover > ul {
+    display:block;
+  }
+  
+  .nav li ul li {
+    position:relative;
+  }
+  
+  .nav li ul li ul {
+    right:-140px;
+    top:0px;
   }
