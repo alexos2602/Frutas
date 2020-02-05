@@ -44,10 +44,7 @@ body{
   padding:10px 12px;
   display:block;
   box-shadow: 1px 2px 1px #AAA;
-}
-
-.nav li a:nth-child(4){
-  border-radius: 5px;
+  border-radius: 5px 50px / 50px 15px;
 }
 
 .nav li a:hover {
@@ -67,15 +64,6 @@ body{
   opacity:1;
   top:17.2%;
   visibility:visible;
-}
-
-.nav li ul li {
-  position:relative;
-}
-
-.nav li ul li ul {
-  right:-140px;
-  top:0px;
 }
 
 /* -------------------------------------------------box */
