@@ -1,0 +1,121 @@
+/* https://www.color-hex.com/color/ffc361  marron
+https://www.color-hex.com/color/85c84f  verde */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ol, ul, a{
+  list-style: none;
+  text-decoration:none;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  background: #f6faf4;
+  margin:auto;
+  width: 85%;
+}
+
+#header {
+  margin:auto;
+}
+
+.logo img{
+  display: block;
+  margin: auto;
+}
+/* -------------------------------------------------Menu */
+.nav {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav > li{
+  width: 18%;
+}
+
+.nav li a {
+  background-color:#273c17;
+  color:#fff;
+  padding:10px 12px;
+  display:block;
+  box-shadow: 1px 2px 1px #AAA;
+  border-radius: 5px 50px / 50px 15px;
+}
+
+.nav li a:hover {
+  background-color:#5d8c37;
+}
+
+.nav li ul {
+  position:absolute;
+  top:20%;
+  visibility:hidden;
+  transition:all .2s ease;
+  -webkit-transition:all .2s ease;
+}
+
+.nav li:hover > ul {
+  position:absolute;
+  opacity:1;
+  top:13.8%;
+  visibility:visible;
+}
+
+/* -------------------------------------------------Articulos */
+
+.conten-box{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  margin-bottom: 2rem;
+  background: #FFF;
+  margin: 0.5rem;
+  width: 47%;
+}
+
+.image.fit {
+  height: 490px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image.fit img{
+  width: 90%;
+  height: 90%;
+  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+  .box header h2 {
+    margin-bottom: 2rem;
+  }
+
+  .box header p {
+    text-transform: uppercase;
+    font-size: .75rem;
+    font-weight: 300;
+    margin: 0 0 .25rem 0;
+    padding: 0 0 .75rem 0;
+    letter-spacing: .25rem;
+  }
+  
+  .box .content {
+    padding: 3rem;
+  }
+
+  .button{
+    color: #66ac2d;
+  }
+
+footer p{
+  text-align: center;
+}
