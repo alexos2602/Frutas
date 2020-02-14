@@ -1,6 +1,7 @@
 /* https://www.color-hex.com/color/ffc361  marron
 https://www.color-hex.com/color/85c84f  verde */
 
+
 *{
   margin: 0;
   padding: 0;
@@ -129,6 +130,29 @@ body{
     color: #66ac2d;
   }
 
-footer p{
+/* -------------------------------------------------Articulos */
+
+footer{
+  padding: 4rem 0 2rem 0 ;
+		background: #07110a;
+		text-align: center;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+footer i{
+  font-size: 25px;
+}
+
+footer a:hover {
+  color: #FFF;
+}
+
+footer .copyright {
+  color: #bbb;
   text-align: center;
+  padding-top: 20px;
 }
