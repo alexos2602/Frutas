@@ -19,13 +19,17 @@ body{
   background: #f6f0e9;
 }
 
-#header {
+.header {
   margin:auto;
   height: 50vh;
   background: url(images/papa1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+.header2 {
+  height: 20vh;
 }
 
 .logo{
@@ -94,6 +98,10 @@ body{
   margin: 25px;
   width: 35%;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+}
+
+.box2 {
+  width: 50%;
 }
 
 .image.fit {
