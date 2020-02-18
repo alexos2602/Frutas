@@ -1,92 +1,89 @@
 /* https://www.color-hex.com/color/ffc361  marron
 https://www.color-hex.com/color/85c84f  verde */
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-ol, ul, a{
+ol, ul, a {
   list-style: none;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background: #f6f0e9;
 }
 
 .header {
-  margin:auto;
-  height: 50vh;
+  height: 37vh;
   background: url(images/papa1.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-.header2 {
-  height: 20vh;
-}
-
-.logo{
+.logo {
   display: inline-block;
   margin-top: 20px;
   margin-left: 20px;
   width: 100px;
-  height: 100px;
 }
 
-.logo img{
+.logo img {
   width: 100%;
 }
+
 /* -------------------------------------------------Menu */
+
 .nav {
   position: relative;
-  bottom: 20%;
+  bottom: 26%;
   display: flex;
   text-align: center;
   justify-content: center;
+  width: 60%;
+  margin: auto;
 }
 
-.nav > li{
-  width: 18%;
+.nav>li {
+  width: 100%;
 }
 
 .nav li a {
-  background-color:#273c17;
-  color:#fff;
-  padding:10px 12px;
-  display:block;
+  background-color: #273c17;
+  color: #fff;
+  padding: 10px 12px;
+  display: block;
   box-shadow: 1px 2px 1px #AAA;
-  border-radius: 5px 50px / 50px 15px;
+  border-radius: 5px 5px;
 }
 
 .nav li a:hover {
-  background-color:#5d8c37;
+  background-color: #5d8c37;
 }
 
 .nav li ul {
-  position:absolute;
-  top:170%;
-  visibility:hidden;
-  transition:all .2s ease;
-  -webkit-transition:all .2s ease;
+  position: absolute;
+  top: 170%;
+  visibility: hidden;
+  transition: all .2s ease;
+  -webkit-transition: all .2s ease;
 }
 
-.nav li:hover > ul {
-  position:absolute;
-  opacity:1;
-  top:105%;
-  visibility:visible;
+.nav li:hover>ul {
+  position: absolute;
+  opacity: 1;
+  top: 105%;
+  visibility: visible;
 }
 
 /* -------------------------------------------------Articulos */
 
-.conten-box{
+.conten-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -97,11 +94,11 @@ body{
   background: #FFF;
   margin: 25px;
   width: 35%;
-  box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
 .box2 {
-  width: 50%;
+  width: 70%;
 }
 
 .image.fit {
@@ -111,39 +108,44 @@ body{
   align-items: center;
 }
 
-.image.fit img{
+.image.fit2 {
+  height: 450px;
+}
+
+.image.fit img {
   width: 90%;
   height: 90%;
   border-radius: 0.5rem;
   object-fit: cover;
 }
-  .box header h2 {
-    margin-bottom: 2rem;
-  }
 
-  .box header p {
-    text-transform: uppercase;
-    font-size: .75rem;
-    font-weight: 300;
-    margin: 0 0 .25rem 0;
-    padding: 0 0 .75rem 0;
-    letter-spacing: .25rem;
-  }
-  
-  .box .content {
-    padding: 3rem;
-  }
+.box header h2 {
+  margin-bottom: 2rem;
+}
 
-  .button{
-    color: #66ac2d;
-  }
+.box header p {
+  text-transform: uppercase;
+  font-size: .75rem;
+  font-weight: 300;
+  margin: 0 0 .25rem 0;
+  padding: 0 0 .75rem 0;
+  letter-spacing: .25rem;
+}
+
+.box .content {
+  padding: 3rem;
+}
+
+.button {
+  color: #66ac2d;
+}
 
 /* -------------------------------------------------Articulos */
 
-footer{
-  padding: 4rem 0 2rem 0 ;
-		background: #07110a;
-		text-align: center;
+footer {
+  padding: 4rem 0 2rem 0;
+  background: #07110a;
+  text-align: center;
 }
 
 footer a {
@@ -151,7 +153,7 @@ footer a {
   padding: 20px;
 }
 
-footer i{
+footer i {
   font-size: 25px;
 }
 
