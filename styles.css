@@ -86,7 +86,7 @@ body {
 .conten-box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .box {
@@ -98,7 +98,7 @@ body {
 }
 
 .box2 {
-  width: 70%;
+  width: 60%;
 }
 
 .image.fit {
@@ -133,14 +133,14 @@ body {
 }
 
 .box .content {
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .button {
   color: #66ac2d;
 }
 
-/* -------------------------------------------------Articulos */
+/* -------------------------------------------------Footer */
 
 footer {
   padding: 4rem 0 2rem 0;
