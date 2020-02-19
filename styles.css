@@ -1,6 +1,8 @@
 /* https://www.color-hex.com/color/ffc361  marron
 https://www.color-hex.com/color/85c84f  verde */
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -123,13 +125,23 @@ body {
   margin-bottom: 2rem;
 }
 
-.box header p {
+.align-center{
+  display: block;
+  text-align: center;
+}
+
+.align-center p{
   text-transform: uppercase;
   font-size: .75rem;
-  font-weight: 300;
   margin: 0 0 .25rem 0;
   padding: 0 0 .75rem 0;
   letter-spacing: .25rem;
+}
+
+.content > p{
+  font-size: 1.2rem;
+  margin: 0 0 .25rem 0;
+  padding: 0 0 .75rem 0;
 }
 
 .box .content {
@@ -137,7 +149,17 @@ body {
 }
 
 .button {
-  color: #66ac2d;
+  color: #000;
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+	font-weight: 300;
+	height: 2.85rem;
+	line-height: 2.95rem;
+	padding: 0 1.5rem;
+}
+
+.button:hover{
+  background: rgba(0, 0, 0, 0.10);
 }
 
 /* -------------------------------------------------Footer */
