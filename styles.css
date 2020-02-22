@@ -32,7 +32,7 @@ body {
   display: inline-block;
   margin-top: 20px;
   margin-left: 20px;
-  width: 100px;
+  width: 13%;
 }
 
 .logo img {
@@ -187,4 +187,39 @@ footer .copyright {
   color: #bbb;
   text-align: center;
   padding-top: 20px;
+}
+
+@media screen and (max-width: 700px){
+  .conten-box{
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .box{
+    width: 70%;
+  }
+
+}
+
+@media screen and (max-width: 580px){
+  /* .nav{
+    display: none;
+  } */
+
+  body {
+    font-size: 17px;
+  }
+
+  .content > p{
+    font-size: 17px;
+  }
+
+  .align-center p{
+    font-size: .60rem;
+  }
+
+  footer p{
+    font-size: 15px;
+  }
+
 }
