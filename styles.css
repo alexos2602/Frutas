@@ -29,7 +29,6 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  transition: 1s;
 }
 
 .logo img{
@@ -70,6 +69,10 @@ nav{
   padding: 10px 38px;
 }
 
+.enlaces ul li > ul a{
+  background: #07110a;
+}
+
 .nav1 .enlaces ul{
   display: flex;
   flex-wrap: wrap;
@@ -94,7 +97,6 @@ nav{
 }
 
 .enlaces ul li:hover>ul {
-  position: absolute;
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -231,10 +233,17 @@ footer .copyright {
   padding-top: 20px;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 780px){
   
   .nav1 li a{
     padding: 10px 20px;
+  }
+
+  .textos>h1{
+    font-size: 35px;
+  }
+  .textos>h2{
+    font-size:24px;
   }
 
   .conten-box{
@@ -243,7 +252,7 @@ footer .copyright {
   }
 
   .box{
-    width: 70%;
+    width: 85%;
   }
 
 }
@@ -262,7 +271,6 @@ footer .copyright {
   .enlaces{
     position: fixed;
     top:50px;
-    background: #07110a;
     left: 0;
     height: 100%;
     transition: 1s;
@@ -278,23 +286,19 @@ footer .copyright {
   .enlaces ul li a{
     display: block;
     width: 100%;
-    height: 50px;
-    padding: 20px;
+    padding: 14px;
     text-align: center;
-    background: #273c17;
     color:#fff;
   }
 
   /* ---------------Oculto--------------------- */
 .enlaces ul li>ul {
   position: absolute;
-  /* left: 9%; */
   top: 40%;
+  width: 100%;
 }
 
 .enlaces ul li:hover>ul {
-  position: absolute;
-  /* left: 9%; */
   top: 32%;
   width: 100%;
 }
@@ -304,8 +308,20 @@ footer .copyright {
     font-size: 17px;
   }
 
+  .box{
+    width: 98%;
+  }
+
+  .box .content {
+    padding: 30px;
+  }
+
   .content > p{
     font-size: 17px;
+  }
+
+  .image.fit{
+    height: 300px;
   }
 
   .align-center p{
@@ -314,6 +330,11 @@ footer .copyright {
 
   footer p{
     font-size: 15px;
+  }
+
+  footer a {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
   }
 
 }
